@@ -1,4 +1,4 @@
 words = [word for word in input().split(',')]
-words = words.sorted()
+words = words.sort()
 
-print(words)
+print(','.join(words))
